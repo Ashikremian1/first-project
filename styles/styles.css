@@ -59,6 +59,17 @@ nav {
     border: none;
 }
 
+.btn-style-3{
+    background-color: #4E47FF;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 19px 210px;
+    border: none;
+}
+
+
 .btn-style-2 {}
 
 .li {
@@ -198,6 +209,58 @@ nav {
     gap: 12px;
     padding-bottom: 0px;
 }
+
+
+/* Footer */
+
+.footer-column{
+    display: flex;
+    justify-content: space-around;
+    margin: 150px;
+}
+
+.footer-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+footer input[type="text"], footer input[type="email"] , footer textarea{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border:#757575
+}
+
+.logo-2{
+    text-align: center;
+}
+
+
+
+.last{
+    display: flex;
+    gap: 48px;
+    color: #8987A1;
+    justify-content: center;
+    margin-bottom: 150px;
+    
+}
+
+.logo-2-1{
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.last-2{
+    color: #8987A1;
+}
+
+
+
+
 
 
 
