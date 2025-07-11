@@ -259,6 +259,12 @@ footer input[type="text"], footer input[type="email"] , footer textarea{
 }
 
 
+.btn-style:hover {
+    background-color: rgb(192, 192, 34);
+    color: black;
+    
+}
+
 
 
 
