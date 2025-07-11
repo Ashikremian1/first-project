@@ -139,3 +139,65 @@ nav {
 .details{
     margin-top: 0px;
 }
+
+
+
+
+/* Banner4-style */
+
+.banner4-content{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.users-review{
+    display: flex;
+    gap: 20px;
+    margin: 137px 150px;
+    justify-content: center;
+
+}
+
+.banner4-content-1{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.users-review-1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.users-review-2{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.users-name{
+    color: #757575;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.review-date{
+    color: #B3B3B3;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 0px;
+}
+
+
+
+.avatar{
+    border-radius: 99px;
+}
+
+.user-review-3{
+    display: flex;
+    gap: 12px;
+    padding-bottom: 0px;
+}
+
+
+
