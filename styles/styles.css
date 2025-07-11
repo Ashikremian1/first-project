@@ -1,13 +1,21 @@
 /* fonts */
-.raleway-normal{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
 /* background */
-.header{
+.header {
     background-image: url("../Assets/Hero-bg.png");
     height: 698px;
 }
@@ -15,14 +23,18 @@
 
 
 /* share styles */
-.text-color-1{
+.text-color-1 {
     color: #4E47FF;
 }
 
-
+.text-color-2{
+    font-size: 20px;
+    font-weight:normal;
+    color: rgba(37, 36, 50, 0.5)
+}
 
 /* nav styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 150px;
@@ -30,14 +42,14 @@ nav{
     align-items: center;
 }
 
-.nav-title{
-    font-weight:900;
+.nav-title {
+    font-weight: 900;
     font-size: 34px;
 }
 
 
 /* button styles */
-.btn-style{
+.btn-style {
     background-color: #4E47FF;
     font-weight: 600;
     color: white;
@@ -47,47 +59,83 @@ nav{
     border: none;
 }
 
-.btn-style-2{
+.btn-style-2 {}
 
-}
-
-.li{
+.li {
     list-style: none;
 }
 
 
 /* banner-1 styles */
 
-.Cool{
+.Cool {
     font-size: 65px;
 }
 
-.banner1-content{
+.banner1-content {
     margin: 150px 267px;
     text-align: center;
 }
 
 
 /* banner2-styles */
-.banner2-content{
+.banner2-content {
     display: flex;
     margin: 116px 150px;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
 }
 
-.See{
+.See {
     font-size: 42px;
     font-weight: bold;
     color: #252432;
 }
 
-.Explore{
+.Explore {
     font-size: 24px;
-    font-weight:normal;
+    font-weight: normal;
     color: rgba(37, 36, 50, 0.5)
 }
 
-.wc-mini{
+.wc-mini {
     border-radius: 48px;
+}
+
+
+/* Banner3-style */
+
+
+.banner3-content {
+    padding: 50px 140px;
+    text-align: center;
+}
+
+.banner3 {
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 116px 150px;
+    border-radius: 24px;
+    height: 400px;
+}
+
+.users-content {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.banner3-content-1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.user-number {
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.details{
+    margin-top: 0px;
 }
